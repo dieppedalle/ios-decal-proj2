@@ -10,7 +10,10 @@ import UIKit
 
 class GameViewController: UIViewController {
     
+    @IBOutlet weak var hangManImage: UIImageView!
+    
     @IBOutlet weak var wordReveal: UILabel!
+    
     @IBOutlet weak var A: UIButton!
     
     @IBOutlet weak var B: UIButton!
@@ -67,11 +70,52 @@ class GameViewController: UIViewController {
     var phrase: String = ""
     var characterAdded = [Character]()
     
+    var incorrectGuesses = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        loadNewGame()
+        /*else if Array(arrayLiteral: wordReveal.text)[currentPosition-1] != "_"{
+            
+        }*/
+        
+        
+    }
+    
+    func loadNewGame(){
+        characterAdded = []
+        incorrectGuesses = 0
+        hangManImage.image = UIImage(named: "hangman1.gif")
+        A.enabled = true
+        B.enabled = true
+        C.enabled = true
+        D.enabled = true
+        E.enabled = true
+        F.enabled = true
+        G.enabled = true
+        H.enabled = true
+        I.enabled = true
+        J.enabled = true
+        K.enabled = true
+        L.enabled = true
+        M.enabled = true
+        N.enabled = true
+        O.enabled = true
+        P.enabled = true
+        Q.enabled = true
+        R.enabled = true
+        S.enabled = true
+        T.enabled = true
+        U.enabled = true
+        V.enabled = true
+        W.enabled = true
+        X.enabled = true
+        Y.enabled = true
+        Z.enabled = true
+        
+        
         let hangmanPhrases = HangmanPhrases()
         phrase = hangmanPhrases.getRandomPhrase()
         
@@ -97,10 +141,6 @@ class GameViewController: UIViewController {
         }
         
         wordReveal.text = wordLabel
-        /*else if Array(arrayLiteral: wordReveal.text)[currentPosition-1] != "_"{
-            
-        }*/
-        
         print(wordReveal.text![wordReveal.text!.startIndex.advancedBy(0)])
         //print(Array(arrayLiteral: wordReveal.text!)[0])
         print(phrase)
@@ -117,50 +157,63 @@ class GameViewController: UIViewController {
         
         var currentPosition = 0
         let stringLength = phrase.characters.count
-        var wordLabel = ""
-        
-        
-        for character in phrase.characters{
-            var charWordLabel = wordReveal.text![wordReveal.text!.startIndex.advancedBy(0)]
-            currentPosition += 1
-            
-            if character == " "{
-                wordLabel += " "
-            }
-            else{
-                if String(character)==button.currentTitle{
-                    wordLabel += String(character)
-                    characterAdded.append(character)
-                }
-                else if (characterAdded.contains(character)){
-                    wordLabel += String(character)
-                }
-                else{
-                    if currentPosition != stringLength{
-                        wordLabel += "_ "
-                    }
-                    else{
-                        wordLabel += "_"
-                    }
-                }
-            }
-        }
-        
-        wordReveal.text = wordLabel
         button.enabled = false
         
-        var allLettersGuessed = true
-        
-        for character in wordReveal.text!.characters{
-            if character == "_"{
-                allLettersGuessed = false
+        if !phrase.containsString(button.currentTitle!){
+            incorrectGuesses += 1
+            let nameImage = "hangman\(incorrectGuesses + 1).gif"
+            hangManImage.image = UIImage(named: nameImage)
+            if incorrectGuesses == 6{
+                let alert = UIAlertController(title: "You Lost!", message: "The phrase was:\n \(phrase)", preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "New Game", style: UIAlertActionStyle.Default, handler: { action in self.loadNewGame()}))
+                self.presentViewController(alert, animated: true, completion: nil)
             }
         }
-        
-        if allLettersGuessed == true{
-            let alert = UIAlertController(title: "Congratulations", message: "You Won!", preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "New Game", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
+        else{
+            var wordLabel = ""
+            
+            for character in phrase.characters{
+                var charWordLabel = wordReveal.text![wordReveal.text!.startIndex.advancedBy(0)]
+                currentPosition += 1
+                
+                if character == " "{
+                    wordLabel += " "
+                }
+                else{
+                    if String(character)==button.currentTitle{
+                        wordLabel += String(character)
+                        characterAdded.append(character)
+                    }
+                    else if (characterAdded.contains(character)){
+                        wordLabel += String(character)
+                    }
+                    else{
+                        if currentPosition != stringLength{
+                            wordLabel += "_ "
+                        }
+                        else{
+                            wordLabel += "_"
+                        }
+                    }
+                }
+            }
+            
+            wordReveal.text = wordLabel
+            button.enabled = false
+            
+            var allLettersGuessed = true
+            
+            for character in wordReveal.text!.characters{
+                if character == "_"{
+                    allLettersGuessed = false
+                }
+            }
+            
+            if allLettersGuessed == true{
+                let alert = UIAlertController(title: "You Won!", message: "The phrase was:\n \(phrase)", preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "New Game", style: UIAlertActionStyle.Default, handler: { action in self.loadNewGame()}))
+                self.presentViewController(alert, animated: true, completion: nil)
+            }
         }
     }
     
