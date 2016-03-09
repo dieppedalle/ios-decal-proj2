@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zyz-WC-jRN">
-                                <rect key="frame" x="215" y="154" width="171" height="293"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="efQ-XE-rl1">
+                                <rect key="frame" x="215" y="153" width="171" height="293"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="jHL-5G-C9U">
                                         <rect key="frame" x="0.0" y="0.0" width="171" height="172"/>
@@ -28,7 +28,7 @@
                                             <constraint firstAttribute="height" constant="172" id="tk9-pH-YFu"/>
                                         </constraints>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="arj-m7-iXP">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="e21-a7-wPf">
                                         <rect key="frame" x="24" y="192" width="124" height="101"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hangman Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGH-6y-Ytc">
@@ -38,14 +38,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uP-li-aH3">
-                                                <rect key="frame" x="0.0" y="31" width="124" height="30"/>
+                                                <rect key="frame" x="17" y="31" width="89" height="30"/>
                                                 <state key="normal" title="Single Player"/>
                                                 <connections>
                                                     <segue destination="BYZ-38-t0r" kind="show" identifier="loadSingle" id="T1E-oh-VOh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZQ-sM-acP">
-                                                <rect key="frame" x="0.0" y="71" width="124" height="30"/>
+                                                <rect key="frame" x="24" y="71" width="76" height="30"/>
                                                 <state key="normal" title="Multiplayer"/>
                                                 <connections>
                                                     <action selector="multiplayerButtonPressed:" destination="Ljk-qM-ju2" eventType="touchUpInside" id="6wd-Mr-Op2"/>
@@ -58,8 +58,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zyz-WC-jRN" firstAttribute="centerX" secondItem="Dmz-ET-oGi" secondAttribute="centerX" id="16v-Nj-FjJ"/>
-                            <constraint firstItem="zyz-WC-jRN" firstAttribute="centerY" secondItem="Dmz-ET-oGi" secondAttribute="centerY" id="3Lo-Hr-HQJ"/>
+                            <constraint firstItem="efQ-XE-rl1" firstAttribute="centerY" secondItem="Dmz-ET-oGi" secondAttribute="centerY" id="vZu-Lq-sLj"/>
+                            <constraint firstItem="efQ-XE-rl1" firstAttribute="centerX" secondItem="Dmz-ET-oGi" secondAttribute="centerX" id="xJ9-t8-QBG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="23q-xi-gSx">
@@ -439,29 +439,20 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hangman1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="qH3-oh-8yU">
-                                <rect key="frame" x="254" y="172" width="93" height="109"/>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="251" y="81" width="100" height="100"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hangman1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="qH3-oh-8yU">
+                                <rect key="frame" x="250" y="151" width="100" height="100"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ash-NU-dRr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="03f-hZ-2Ov"/>
                             <constraint firstItem="qH3-oh-8yU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dup-zA-1ap"/>
-                            <constraint firstItem="qH3-oh-8yU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="ebR-iq-IXU"/>
+                            <constraint firstItem="WKP-Qv-ISM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f6I-mn-rSe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WKP-Qv-ISM" secondAttribute="bottom" constant="20" id="gBY-7t-Lp3"/>
                             <constraint firstItem="ash-NU-dRr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jyP-80-oHN"/>
                             <constraint firstItem="ash-NU-dRr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kTw-fp-gt1"/>
-                            <constraint firstItem="WKP-Qv-ISM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vAs-BW-kCl"/>
-                            <constraint firstItem="ash-NU-dRr" firstAttribute="top" secondItem="qH3-oh-8yU" secondAttribute="bottom" constant="8" id="yqc-9P-ZIr"/>
+                            <constraint firstItem="ash-NU-dRr" firstAttribute="top" secondItem="qH3-oh-8yU" secondAttribute="bottom" constant="38" id="luI-Yy-CSu"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="ebR-iq-IXU"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="A" destination="HSI-z9-7cx" id="aBN-4B-ikO"/>
@@ -722,9 +713,6 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hangman1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="hap-A2-kLs">
                                 <rect key="frame" x="254" y="123" width="93" height="109"/>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="251" y="123" width="100" height="100"/>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
