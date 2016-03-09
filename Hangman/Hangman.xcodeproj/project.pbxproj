@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3620FC311C8D55EC0005B9C9 /* StatisticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */; };
+		3662FCDF1C8FD8FC00207BB2 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 3662FCDE1C8FD8FC00207BB2 /* hello.png */; };
 		36C919B91C8B59F6005C9829 /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */; };
 		EC93104C1C891F2C00BE736C /* hangman1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310451C891F2C00BE736C /* hangman1.gif */; };
 		EC93104D1C891F2C00BE736C /* hangman2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310461C891F2C00BE736C /* hangman2.gif */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewController.swift; sourceTree = "<group>"; };
+		3662FCDE1C8FD8FC00207BB2 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
 		36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
 		EC9310451C891F2C00BE736C /* hangman1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman1.gif; path = "basic-hangman-img/hangman1.gif"; sourceTree = "<group>"; };
 		EC9310461C891F2C00BE736C /* hangman2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman2.gif; path = "basic-hangman-img/hangman2.gif"; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 		EC9310531C891F3400BE736C /* basic-hangman-img */ = {
 			isa = PBXGroup;
 			children = (
+				3662FCDE1C8FD8FC00207BB2 /* hello.png */,
 				EC9310451C891F2C00BE736C /* hangman1.gif */,
 				EC9310461C891F2C00BE736C /* hangman2.gif */,
 				EC9310471C891F2C00BE736C /* hangman3.gif */,
@@ -168,6 +173,7 @@
 				ECC94FB71C891E31006B4A98 /* StartScreenViewController.swift */,
 				ECC22F701C8917C200749E58 /* GameViewController.swift */,
 				36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */,
+				3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 				EC93104E1C891F2C00BE736C /* hangman3.gif in Resources */,
 				ECC22F4D1C89177600749E58 /* LaunchScreen.storyboard in Resources */,
 				EC93104D1C891F2C00BE736C /* hangman2.gif in Resources */,
+				3662FCDF1C8FD8FC00207BB2 /* hello.png in Resources */,
 				EC9310511C891F2C00BE736C /* hangman6.gif in Resources */,
 				ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */,
 				EC9310521C891F2C00BE736C /* hangman7.gif in Resources */,
@@ -332,6 +339,7 @@
 			files = (
 				ECC22F711C8917C200749E58 /* GameViewController.swift in Sources */,
 				36C919B91C8B59F6005C9829 /* MultiplayerViewController.swift in Sources */,
+				3620FC311C8D55EC0005B9C9 /* StatisticsTableViewController.swift in Sources */,
 				ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */,
 				ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */,
 				ECC94FB81C891E31006B4A98 /* StartScreenViewController.swift in Sources */,

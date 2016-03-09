@@ -10,6 +10,8 @@ import UIKit
 
 class GameViewController: UIViewController {
     
+    let defaults = NSUserDefaults.standardUserDefaults()
+    
     @IBOutlet weak var hangManImage: UIImageView!
     
     @IBOutlet weak var wordReveal: UILabel!
@@ -164,6 +166,13 @@ class GameViewController: UIViewController {
             let nameImage = "hangman\(incorrectGuesses + 1).gif"
             hangManImage.image = UIImage(named: nameImage)
             if incorrectGuesses == 6{
+                var numberGamesPlayed: Int = defaults.objectForKey("numberGamesPlayed") as! Int
+                var numberGamesLost: Int = defaults.objectForKey("numberGamesLost") as! Int
+                numberGamesPlayed++
+                numberGamesLost++
+                defaults.setObject(numberGamesPlayed, forKey: "numberGamesPlayed")
+                defaults.setObject(numberGamesLost, forKey: "numberGamesLost")
+                
                 let alert = UIAlertController(title: "You Lost!", message: "The phrase was:\n \(phrase)", preferredStyle: UIAlertControllerStyle.Alert)
                 alert.addAction(UIAlertAction(title: "New Game", style: UIAlertActionStyle.Default, handler: { action in self.loadNewGame()}))
                 self.presentViewController(alert, animated: true, completion: nil)
@@ -210,6 +219,13 @@ class GameViewController: UIViewController {
             }
             
             if allLettersGuessed == true{
+                var numberGamesPlayed: Int = defaults.objectForKey("numberGamesPlayed") as! Int
+                var numberGamesWon: Int = defaults.objectForKey("numberGamesWon") as! Int
+                numberGamesPlayed++
+                numberGamesWon++
+                defaults.setObject(numberGamesPlayed, forKey: "numberGamesPlayed")
+                defaults.setObject(numberGamesWon, forKey: "numberGamesWon")
+                
                 let alert = UIAlertController(title: "You Won!", message: "The phrase was:\n \(phrase)", preferredStyle: UIAlertControllerStyle.Alert)
                 alert.addAction(UIAlertAction(title: "New Game", style: UIAlertActionStyle.Default, handler: { action in self.loadNewGame()}))
                 self.presentViewController(alert, animated: true, completion: nil)

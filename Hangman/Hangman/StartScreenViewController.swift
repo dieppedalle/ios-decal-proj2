@@ -8,14 +8,35 @@
 
 import UIKit
 
+
+
 class StartScreenViewController: UIViewController {
 
     var phraseToSend = ""
+    var numberGamesPlayed = 0
+    var numberGamesWon = 0
+    var numberGamesLost = 0
+    
+    //construct new NSUserDefaults object
+    let defaults = NSUserDefaults.standardUserDefaults()
     
     @IBOutlet weak var multiplayerButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let statistics: Int? = defaults.objectForKey("numberGamesPlayed") as! Int?
+        
+        if (statistics == nil){
+            let numberGamesPlayed = 0
+            let numberGamesWon = 0
+            let numberGamesLost = 0
+            
+            defaults.setObject(numberGamesPlayed, forKey: "numberGamesPlayed")
+            defaults.setObject(numberGamesWon, forKey: "numberGamesWon")
+            defaults.setObject(numberGamesLost, forKey: "numberGamesLost")
+        }
+        
         // Do any additional setup after loading the view.
     }
 
@@ -27,7 +48,7 @@ class StartScreenViewController: UIViewController {
     
     @IBAction func multiplayerButtonPressed(sender: AnyObject) {
         //1. Create the alert controller.
-        let alert = UIAlertController(title: "Start Game", message: "Enter phrase to be guessed:", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Enter a pharse for a friend to guess", message: "Use only letters and spaces", preferredStyle: .Alert)
         
         //2. Add the text field. You can configure it however you need.
         alert.addTextFieldWithConfigurationHandler({ (textField) -> Void in
