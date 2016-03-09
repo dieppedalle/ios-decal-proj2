@@ -136,12 +136,13 @@ class MultiplayerViewController: UIViewController {
                 wordLabel += " "
             }
             else{
-                if currentPosition != stringLength{
+                wordLabel += "-"
+                /*if currentPosition != stringLength{
                     wordLabel += "_ "
                 }
                 else{
                     wordLabel += "_"
-                }
+                }*/
             }
             
         }
@@ -194,19 +195,28 @@ class MultiplayerViewController: UIViewController {
                 }
                 else{
                     if String(character)==button.currentTitle{
+                        /*if wordLabel.characters.last==" " && wordLabel.substringToIndex(wordLabel.endIndex.predecessor()).characters.last == "_"{
+                            wordLabel = String(wordLabel.characters.dropLast())
+                        }*/
+                        
                         wordLabel += String(character)
                         characterAdded.append(character)
                     }
                     else if (characterAdded.contains(character)){
+                        /*if wordLabel.characters.last==" " && wordLabel.substringToIndex(wordLabel.endIndex.predecessor()).characters.last == "_"{
+                            wordLabel = String(wordLabel.characters.dropLast())
+                        }*/
+                        
                         wordLabel += String(character)
                     }
                     else{
-                        if currentPosition != stringLength{
+                        wordLabel += "-"
+                        /*if currentPosition != stringLength{
                             wordLabel += "_ "
                         }
                         else{
                             wordLabel += "_"
-                        }
+                        }*/
                     }
                 }
             }
@@ -217,7 +227,7 @@ class MultiplayerViewController: UIViewController {
             var allLettersGuessed = true
             
             for character in wordReveal.text!.characters{
-                if character == "_"{
+                if character == "-"{
                     allLettersGuessed = false
                 }
             }

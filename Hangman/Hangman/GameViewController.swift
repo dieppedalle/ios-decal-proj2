@@ -132,12 +132,13 @@ class GameViewController: UIViewController {
                 wordLabel += " "
             }
             else{
-                if currentPosition != stringLength{
+                wordLabel += "-"
+                /*if currentPosition != stringLength{
                     wordLabel += "_ "
                 }
                 else{
                     wordLabel += "_"
-                }
+                }*/
             }
             
         }
@@ -190,19 +191,31 @@ class GameViewController: UIViewController {
                 }
                 else{
                     if String(character)==button.currentTitle{
+                        //wordLabel = String(wordLabel.characters.dropLast())
+                        print(wordLabel)
+                        /*if wordLabel.characters.last==" " && wordLabel.substringToIndex(wordLabel.endIndex.predecessor()).characters.last == "_"{
+                            wordLabel = String(wordLabel.characters.dropLast())
+                        }*/
+                        
                         wordLabel += String(character)
                         characterAdded.append(character)
                     }
                     else if (characterAdded.contains(character)){
+                        //wordLabel = String(wordLabel.characters.dropLast())
+                        /*if wordLabel.characters.last==" " && wordLabel.substringToIndex(wordLabel.endIndex.predecessor()).characters.last == "_"{
+                            wordLabel = String(wordLabel.characters.dropLast())
+                        }*/
+                        
                         wordLabel += String(character)
                     }
                     else{
-                        if currentPosition != stringLength{
+                        wordLabel += "-"
+                        /*if currentPosition != stringLength{
                             wordLabel += "_ "
                         }
                         else{
                             wordLabel += "_"
-                        }
+                        }*/
                     }
                 }
             }
@@ -213,7 +226,7 @@ class GameViewController: UIViewController {
             var allLettersGuessed = true
             
             for character in wordReveal.text!.characters{
-                if character == "_"{
+                if character == "-"{
                     allLettersGuessed = false
                 }
             }
