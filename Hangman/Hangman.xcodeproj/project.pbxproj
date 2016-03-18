@@ -14,6 +14,9 @@
 		360592891C9BB0940052D133 /* hangman5.png in Resources */ = {isa = PBXBuildFile; fileRef = 360592821C9BB0940052D133 /* hangman5.png */; };
 		3605928A1C9BB0940052D133 /* hangman6.png in Resources */ = {isa = PBXBuildFile; fileRef = 360592831C9BB0940052D133 /* hangman6.png */; };
 		3605928B1C9BB0940052D133 /* hangman7.png in Resources */ = {isa = PBXBuildFile; fileRef = 360592841C9BB0940052D133 /* hangman7.png */; };
+		3605928D1C9BBFB30052D133 /* red-cross-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 3605928C1C9BBFB30052D133 /* red-cross-md.png */; };
+		3605928F1C9BC0C40052D133 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3605928E1C9BC0C40052D133 /* check.png */; };
+		360592911C9BC41F0052D133 /* presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360592901C9BC41F0052D133 /* presidents.plist */; };
 		3620FC311C8D55EC0005B9C9 /* StatisticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */; };
 		3662FCDF1C8FD8FC00207BB2 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 3662FCDE1C8FD8FC00207BB2 /* hello.png */; };
 		36C919B91C8B59F6005C9829 /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */; };
@@ -61,6 +64,9 @@
 		360592821C9BB0940052D133 /* hangman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman5.png; path = "basic-hangman-img/hangman5.png"; sourceTree = "<group>"; };
 		360592831C9BB0940052D133 /* hangman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman6.png; path = "basic-hangman-img/hangman6.png"; sourceTree = "<group>"; };
 		360592841C9BB0940052D133 /* hangman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman7.png; path = "basic-hangman-img/hangman7.png"; sourceTree = "<group>"; };
+		3605928C1C9BBFB30052D133 /* red-cross-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-cross-md.png"; path = "basic-hangman-img/red-cross-md.png"; sourceTree = "<group>"; };
+		3605928E1C9BC0C40052D133 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = "basic-hangman-img/check.png"; sourceTree = "<group>"; };
+		360592901C9BC41F0052D133 /* presidents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = presidents.plist; sourceTree = "<group>"; };
 		3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewController.swift; sourceTree = "<group>"; };
 		3662FCDE1C8FD8FC00207BB2 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
 		36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +125,7 @@
 			children = (
 				3605927E1C9BB0940052D133 /* hangman1.png */,
 				3605927F1C9BB0940052D133 /* hangman2.png */,
+				3605928E1C9BC0C40052D133 /* check.png */,
 				360592801C9BB0940052D133 /* hangman3.png */,
 				360592811C9BB0940052D133 /* hangman4.png */,
 				360592821C9BB0940052D133 /* hangman5.png */,
@@ -130,6 +137,7 @@
 				EC9310471C891F2C00BE736C /* hangman3.gif */,
 				EC9310481C891F2C00BE736C /* hangman4.gif */,
 				EC9310491C891F2C00BE736C /* hangman5.gif */,
+				3605928C1C9BBFB30052D133 /* red-cross-md.png */,
 				EC93104A1C891F2C00BE736C /* hangman6.gif */,
 				EC93104B1C891F2C00BE736C /* hangman7.gif */,
 			);
@@ -213,6 +221,7 @@
 			children = (
 				ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */,
 				ECC22F7B1C891A6700749E58 /* phrases.plist */,
+				360592901C9BC41F0052D133 /* presidents.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -329,12 +338,15 @@
 				360592871C9BB0940052D133 /* hangman3.png in Resources */,
 				360592861C9BB0940052D133 /* hangman2.png in Resources */,
 				EC93104D1C891F2C00BE736C /* hangman2.gif in Resources */,
+				3605928D1C9BBFB30052D133 /* red-cross-md.png in Resources */,
 				3662FCDF1C8FD8FC00207BB2 /* hello.png in Resources */,
+				3605928F1C9BC0C40052D133 /* check.png in Resources */,
 				EC9310511C891F2C00BE736C /* hangman6.gif in Resources */,
 				ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */,
 				EC9310521C891F2C00BE736C /* hangman7.gif in Resources */,
 				360592851C9BB0940052D133 /* hangman1.png in Resources */,
 				ECC22F481C89177600749E58 /* Main.storyboard in Resources */,
+				360592911C9BC41F0052D133 /* presidents.plist in Resources */,
 				EC93104F1C891F2C00BE736C /* hangman4.gif in Resources */,
 				360592881C9BB0940052D133 /* hangman4.png in Resources */,
 				3605928A1C9BB0940052D133 /* hangman6.png in Resources */,

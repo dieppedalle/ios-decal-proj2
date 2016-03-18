@@ -156,6 +156,8 @@ class GameViewController: UIViewController {
     
     @IBAction func buttonPressed(button : UIButton)
     {
+        
+        
         print(button.currentTitle!)
         
         var currentPosition = 0

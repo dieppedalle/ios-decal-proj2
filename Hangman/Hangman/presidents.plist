@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>GEORGE WASHINGTON</string>
+	<string>JOHN ADAMS</string>
+	<string>THOMAS JEFFERSON</string>
+	<string>JAMES MADISON</string>
+	<string>JAMES MONROE</string>
+	<string>JOHN QUINCY ADAMS</string>
+	<string>ANDREW JACKSON</string>
+	<string>MARTIN VAN BUREN</string>
+	<string>WILLIAM HARRISON</string>
+	<string>JOHN TYLER</string>
+	<string>JAMES POLK</string>
+	<string>ZACHARY TAYLOR</string>
+	<string>MILLARD FILLMORE</string>
+	<string>FRANKLIN PIERCE</string>
+	<string>JAMES BUCHANAN</string>
+	<string>ABRAHAM LINCOLN</string>
+	<string>ANDREW JOHNSON</string>
+	<string>ULYSSES GRANT</string>
+	<string>RUTHERFORD HAYES</string>
+	<string>JAMES GARFIELD</string>
+	<string>CHESTER ARTHUR</string>
+	<string>GROVER CLEVELAND</string>
+	<string>BENJAMIN HARRISON</string>
+	<string>WILLIAM MCKINLEY</string>
+	<string>THEODORE ROOSEVELT</string>
+	<string>WILLIAM HOWARD TAFT</string>
+	<string>WOODROW WILSON</string>
+	<string>WARREN HARDING</string>
+	<string>CALVIN COOLIDGE</string>
+	<string>HERBERT HOOVER</string>
+	<string>FRANKLIN ROOSEVELT</string>
+	<string>HARRY TRUMAN</string>
+	<string>DWIGHT EISENHOWER</string>
+	<string>JOHN KENNEDY</string>
+	<string>LYNDON JOHNSON</string>
+	<string>RICHARD NIXON</string>
+	<string>GERALD FORD</string>
+	<string>JAMES EARL CARTER</string>
+	<string>RONALD REAGAN</string>
+	<string>GEORGE BUSH</string>
+	<string>WILLIAM CLINTON</string>
+	<string>BARACK OBAMA</string>
+</array>
+</plist>
