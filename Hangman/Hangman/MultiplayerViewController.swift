@@ -90,7 +90,7 @@ class MultiplayerViewController: UIViewController {
         
         characterAdded = []
         incorrectGuesses = 0
-        hangManImage.image = UIImage(named: "hangman1.gif")
+        hangManImage.image = UIImage(named: "hangman1.png")
         A.enabled = true
         B.enabled = true
         C.enabled = true
@@ -175,11 +175,11 @@ class MultiplayerViewController: UIViewController {
         
         if !phrase.containsString(button.currentTitle!){
             incorrectGuesses += 1
-            let nameImage = "hangman\(incorrectGuesses + 1).gif"
+            let nameImage = "hangman\(incorrectGuesses + 1).png"
             hangManImage.image = UIImage(named: nameImage)
             if incorrectGuesses == 6{
                 let alert = UIAlertController(title: "You Lost!", message: "The phrase was:\n \(phrase)", preferredStyle: UIAlertControllerStyle.Alert)
-                alert.addAction(UIAlertAction(title: "New Game", style: UIAlertActionStyle.Default, handler: { action in self.loadNewGame()}))
+                alert.addAction(UIAlertAction(title: "Go Back to Menu", style: UIAlertActionStyle.Default, handler: { action in self.newGameInitiate()}))
                 self.presentViewController(alert, animated: true, completion: nil)
             }
         }

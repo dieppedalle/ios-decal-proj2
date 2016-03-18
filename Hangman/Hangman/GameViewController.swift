@@ -12,8 +12,8 @@ class GameViewController: UIViewController {
     
     let defaults = NSUserDefaults.standardUserDefaults()
     
-    @IBOutlet weak var hangManImage: UIImageView!
     
+    @IBOutlet weak var hangManImage: UIImageView!
     @IBOutlet weak var wordReveal: UILabel!
     
     @IBOutlet weak var A: UIButton!
@@ -89,7 +89,7 @@ class GameViewController: UIViewController {
     func loadNewGame(){
         characterAdded = []
         incorrectGuesses = 0
-        hangManImage.image = UIImage(named: "hangman1.gif")
+        hangManImage.image = UIImage(named: "hangman1.png")
         A.enabled = true
         B.enabled = true
         C.enabled = true
@@ -164,7 +164,7 @@ class GameViewController: UIViewController {
         
         if !phrase.containsString(button.currentTitle!){
             incorrectGuesses += 1
-            let nameImage = "hangman\(incorrectGuesses + 1).gif"
+            let nameImage = "hangman\(incorrectGuesses + 1).png"
             hangManImage.image = UIImage(named: nameImage)
             if incorrectGuesses == 6{
                 var numberGamesPlayed: Int = defaults.objectForKey("numberGamesPlayed") as! Int
