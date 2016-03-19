@@ -48,7 +48,7 @@ class StartScreenViewController: UIViewController {
     
     @IBAction func multiplayerButtonPressed(sender: AnyObject) {
         //1. Create the alert controller.
-        let alert = UIAlertController(title: "Enter a pharse for a friend to guess", message: "Use only letters and spaces", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Enter a phrase for a friend to guess", message: "Use only letters and spaces", preferredStyle: .Alert)
         
         //2. Add the text field. You can configure it however you need.
         alert.addTextFieldWithConfigurationHandler({ (textField) -> Void in
