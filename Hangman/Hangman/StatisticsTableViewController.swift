@@ -39,7 +39,8 @@ class StatisticsTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didHighlightRowAtIndexPath indexPath: NSIndexPath) {
         
-        if indexPath.row == 0{
+        print(indexPath.section)
+        if indexPath.section == 1{
             tableView.cellForRowAtIndexPath(indexPath)!.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.1)
         }
     }

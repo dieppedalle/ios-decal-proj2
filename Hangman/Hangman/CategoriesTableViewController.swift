@@ -20,6 +20,17 @@ class CategoriesTableViewController: UITableViewController {
         self.performSegueWithIdentifier("singlePlayerMode", sender: currentCell.textLabel!.text);
     }
     
+    override func tableView(tableView: UITableView, didHighlightRowAtIndexPath indexPath: NSIndexPath) {
+        
+        tableView.cellForRowAtIndexPath(indexPath)!.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.1)
+        
+    }
+    
+    override func tableView(tableView: UITableView, didUnhighlightRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.cellForRowAtIndexPath(indexPath)!.backgroundColor = UIColor.whiteColor()
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

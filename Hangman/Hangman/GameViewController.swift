@@ -120,7 +120,7 @@ class GameViewController: UIViewController {
         Y.enabled = true
         Z.enabled = true
         
-        if (category == "Beatles Song"){
+        if (category == "Beatles Songs"){
             let hangmanPhrases = HangmanPhrases(category: "phrases")
             phrase = hangmanPhrases.getRandomPhrase()
         }
