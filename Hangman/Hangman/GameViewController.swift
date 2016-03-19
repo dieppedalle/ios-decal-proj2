@@ -77,7 +77,8 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.title=category
         // Do any additional setup after loading the view.
         loadNewGame()
         /*else if Array(arrayLiteral: wordReveal.text)[currentPosition-1] != "_"{
