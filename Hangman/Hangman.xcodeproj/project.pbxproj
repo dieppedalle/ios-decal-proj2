@@ -17,6 +17,17 @@
 		3605928D1C9BBFB30052D133 /* red-cross-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 3605928C1C9BBFB30052D133 /* red-cross-md.png */; };
 		3605928F1C9BC0C40052D133 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3605928E1C9BC0C40052D133 /* check.png */; };
 		360592911C9BC41F0052D133 /* presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360592901C9BC41F0052D133 /* presidents.plist */; };
+		3606A4DD1C9D0969009396F5 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606A4DC1C9D0969009396F5 /* CategoriesTableViewController.swift */; };
+		3606A4EC1C9D27D2009396F5 /* animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E21C9D27D2009396F5 /* animals.plist */; };
+		3606A4EE1C9D27D2009396F5 /* circusFairs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E41C9D27D2009396F5 /* circusFairs.plist */; };
+		3606A4EF1C9D27D2009396F5 /* clothes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E51C9D27D2009396F5 /* clothes.plist */; };
+		3606A4F01C9D27D2009396F5 /* colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E61C9D27D2009396F5 /* colors.plist */; };
+		3606A4F11C9D27D2009396F5 /* disney.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E71C9D27D2009396F5 /* disney.plist */; };
+		3606A4F21C9D27D2009396F5 /* elections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E81C9D27D2009396F5 /* elections.plist */; };
+		3606A4F31C9D27D2009396F5 /* humanBody.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4E91C9D27D2009396F5 /* humanBody.plist */; };
+		3606A4F41C9D27D2009396F5 /* military.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4EA1C9D27D2009396F5 /* military.plist */; };
+		3606A4F51C9D27D2009396F5 /* USStates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4EB1C9D27D2009396F5 /* USStates.plist */; };
+		3606A4F91C9D28F7009396F5 /* chemicals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3606A4F81C9D28F7009396F5 /* chemicals.plist */; };
 		3620FC311C8D55EC0005B9C9 /* StatisticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */; };
 		3662FCDF1C8FD8FC00207BB2 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 3662FCDE1C8FD8FC00207BB2 /* hello.png */; };
 		36C919B91C8B59F6005C9829 /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */; };
@@ -67,6 +78,17 @@
 		3605928C1C9BBFB30052D133 /* red-cross-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-cross-md.png"; path = "basic-hangman-img/red-cross-md.png"; sourceTree = "<group>"; };
 		3605928E1C9BC0C40052D133 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = "basic-hangman-img/check.png"; sourceTree = "<group>"; };
 		360592901C9BC41F0052D133 /* presidents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = presidents.plist; sourceTree = "<group>"; };
+		3606A4DC1C9D0969009396F5 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		3606A4E21C9D27D2009396F5 /* animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animals.plist; sourceTree = "<group>"; };
+		3606A4E41C9D27D2009396F5 /* circusFairs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = circusFairs.plist; sourceTree = "<group>"; };
+		3606A4E51C9D27D2009396F5 /* clothes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = clothes.plist; sourceTree = "<group>"; };
+		3606A4E61C9D27D2009396F5 /* colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors.plist; sourceTree = "<group>"; };
+		3606A4E71C9D27D2009396F5 /* disney.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disney.plist; sourceTree = "<group>"; };
+		3606A4E81C9D27D2009396F5 /* elections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = elections.plist; sourceTree = "<group>"; };
+		3606A4E91C9D27D2009396F5 /* humanBody.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = humanBody.plist; sourceTree = "<group>"; };
+		3606A4EA1C9D27D2009396F5 /* military.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = military.plist; sourceTree = "<group>"; };
+		3606A4EB1C9D27D2009396F5 /* USStates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = USStates.plist; sourceTree = "<group>"; };
+		3606A4F81C9D28F7009396F5 /* chemicals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = chemicals.plist; sourceTree = "<group>"; };
 		3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewController.swift; sourceTree = "<group>"; };
 		3662FCDE1C8FD8FC00207BB2 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
 		36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				ECC94FB71C891E31006B4A98 /* StartScreenViewController.swift */,
+				3606A4DC1C9D0969009396F5 /* CategoriesTableViewController.swift */,
 				ECC22F701C8917C200749E58 /* GameViewController.swift */,
 				36C919B81C8B59F6005C9829 /* MultiplayerViewController.swift */,
 				3620FC301C8D55EC0005B9C9 /* StatisticsTableViewController.swift */,
@@ -221,7 +244,17 @@
 			children = (
 				ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */,
 				ECC22F7B1C891A6700749E58 /* phrases.plist */,
+				3606A4F81C9D28F7009396F5 /* chemicals.plist */,
 				360592901C9BC41F0052D133 /* presidents.plist */,
+				3606A4E21C9D27D2009396F5 /* animals.plist */,
+				3606A4E41C9D27D2009396F5 /* circusFairs.plist */,
+				3606A4E51C9D27D2009396F5 /* clothes.plist */,
+				3606A4E61C9D27D2009396F5 /* colors.plist */,
+				3606A4E71C9D27D2009396F5 /* disney.plist */,
+				3606A4E81C9D27D2009396F5 /* elections.plist */,
+				3606A4E91C9D27D2009396F5 /* humanBody.plist */,
+				3606A4EA1C9D27D2009396F5 /* military.plist */,
+				3606A4EB1C9D27D2009396F5 /* USStates.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -333,25 +366,35 @@
 			files = (
 				ECC22F7C1C891A6700749E58 /* phrases.plist in Resources */,
 				360592891C9BB0940052D133 /* hangman5.png in Resources */,
+				3606A4F11C9D27D2009396F5 /* disney.plist in Resources */,
+				3606A4F21C9D27D2009396F5 /* elections.plist in Resources */,
 				EC93104E1C891F2C00BE736C /* hangman3.gif in Resources */,
 				ECC22F4D1C89177600749E58 /* LaunchScreen.storyboard in Resources */,
+				3606A4F31C9D27D2009396F5 /* humanBody.plist in Resources */,
 				360592871C9BB0940052D133 /* hangman3.png in Resources */,
+				3606A4EF1C9D27D2009396F5 /* clothes.plist in Resources */,
 				360592861C9BB0940052D133 /* hangman2.png in Resources */,
 				EC93104D1C891F2C00BE736C /* hangman2.gif in Resources */,
 				3605928D1C9BBFB30052D133 /* red-cross-md.png in Resources */,
+				3606A4F51C9D27D2009396F5 /* USStates.plist in Resources */,
 				3662FCDF1C8FD8FC00207BB2 /* hello.png in Resources */,
 				3605928F1C9BC0C40052D133 /* check.png in Resources */,
 				EC9310511C891F2C00BE736C /* hangman6.gif in Resources */,
+				3606A4F01C9D27D2009396F5 /* colors.plist in Resources */,
 				ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */,
+				3606A4F91C9D28F7009396F5 /* chemicals.plist in Resources */,
 				EC9310521C891F2C00BE736C /* hangman7.gif in Resources */,
+				3606A4F41C9D27D2009396F5 /* military.plist in Resources */,
 				360592851C9BB0940052D133 /* hangman1.png in Resources */,
 				ECC22F481C89177600749E58 /* Main.storyboard in Resources */,
 				360592911C9BC41F0052D133 /* presidents.plist in Resources */,
 				EC93104F1C891F2C00BE736C /* hangman4.gif in Resources */,
 				360592881C9BB0940052D133 /* hangman4.png in Resources */,
 				3605928A1C9BB0940052D133 /* hangman6.png in Resources */,
+				3606A4EC1C9D27D2009396F5 /* animals.plist in Resources */,
 				3605928B1C9BB0940052D133 /* hangman7.png in Resources */,
 				EC93104C1C891F2C00BE736C /* hangman1.gif in Resources */,
+				3606A4EE1C9D27D2009396F5 /* circusFairs.plist in Resources */,
 				EC9310501C891F2C00BE736C /* hangman5.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +426,7 @@
 				ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */,
 				ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */,
 				ECC94FB81C891E31006B4A98 /* StartScreenViewController.swift in Sources */,
+				3606A4DD1C9D0969009396F5 /* CategoriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

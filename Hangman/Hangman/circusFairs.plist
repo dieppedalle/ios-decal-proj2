@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<array>
+          <string>ADMISSION</string>
+    
+    
+          <string>AMUSEMENT PARK</string>
+    
+    
+          <string>ANIMALS</string>
+    
+    
+          <string>APPLAUD</string>
+    
+    
+          <string>ATTRACTIONS</string>
+    
+    
+          <string>AUDIENCE</string>
+    
+    
+          <string>BALANCING ACT</string>
+    
+    
+          <string>BALLOONS</string>
+    
+    
+          <string>BAND</string>
+    
+    
+          <string>BANNER</string>
+    
+    
+          <string>BEAR</string>
+    
+    
+          <string>BICYCLE</string>
+    
+    
+          <string>BIG TOP</string>
+    
+    
+          <string>BOOTH</string>
+    
+    
+          <string>BOW</string>
+    
+    
+          <string>BUMPER CARS</string>
+    
+    
+          <string>CAGE</string>
+    
+    
+          <string>CALLIOPE</string>
+    
+    
+          <string>CANDY</string>
+    
+    
+          <string>CANNON</string>
+    
+    
+          <string>CAPE</string>
+    
+    
+          <string>CARNIVAL</string>
+    
+    
+          <string>CAROUSEL</string>
+    
+    
+          <string>CASHIER</string>
+    
+    
+          <string>CLOWN</string>
+    
+    
+          <string>CORN DOG</string>
+    
+    
+          <string>COSTUME</string>
+    
+    
+          <string>COTTON CANDY</string>
+    
+    
+          <string>COUNTY FAIR</string>
+    
+    
+          <string>DOG</string>
+    
+    
+          <string>ELEPHANT</string>
+    
+    
+          <string>ENTERTAIN</string>
+    
+    
+          <string>ENTERTAINER</string>
+    
+    
+          <string>EXHIBITION</string>
+    
+    
+          <string>FAIR</string>
+    
+    
+          <string>FAIRGROUND</string>
+    
+    
+          <string>FEAT</string>
+    
+    
+          <string>FERRIS WHEEL</string>
+    
+    
+          <string>FESTIVAL</string>
+    
+    
+          <string>FESTIVE</string>
+    
+    
+          <string>FIRE BREATHER</string>
+    
+    
+          <string>FIRE EATER</string>
+    
+    
+          <string>FUN</string>
+    
+    
+          <string>FUN HOUSE</string>
+    
+    
+          <string>GAMES</string>
+    
+    
+          <string>GIANT</string>
+    
+    
+          <string>GRANDSTAND</string>
+    
+    
+          <string>GYMNAST</string>
+    
+    
+          <string>HOOP</string>
+    
+    
+          <string>HORSE</string>
+    
+    
+          <string>HOUSE OF MIRRORS</string>
+    
+    
+          <string>HUMAN CANNONBALL</string>
+    
+    
+          <string>JUGGLER</string>
+    
+    
+          <string>KNIFE THROWER</string>
+    
+    
+          <string>LEOTARD</string>
+    
+    
+          <string>LION</string>
+    
+    
+          <string>LION TAMER</string>
+    
+    
+          <string>LIVESTOCK</string>
+    
+    
+          <string>LOG FLUME</string>
+    
+    
+          <string>MAGIC</string>
+    
+    
+          <string>MAGICIAN</string>
+    
+    
+          <string>MAZE</string>
+    
+    
+          <string>MERRY-GO-ROUND</string>
+    
+    
+          <string>MONKEY</string>
+    
+    
+          <string>MUSIC</string>
+    
+    
+          <string>NET</string>
+    
+    
+          <string>PARADE</string>
+    
+    
+          <string>PERFORMER</string>
+    
+    
+          <string>PETTING ZOO</string>
+    
+    
+          <string>POPCORN</string>
+    
+    
+          <string>POSTER</string>
+    
+    
+          <string>PRIZES</string>
+    
+    
+          <string>RIDE</string>
+    
+    
+          <string>RING</string>
+    
+    
+          <string>RING TOSS</string>
+    
+    
+          <string>RINGMASTER</string>
+    
+    
+          <string>ROLLER COASTER</string>
+    
+    
+          <string>SEAL</string>
+    
+    
+          <string>SHOW</string>
+    
+    
+          <string>SIDE SHOW</string>
+    
+    
+          <string>SOMERSALT</string>
+    
+    
+          <string>SPECTATOR</string>
+    
+    
+          <string>SPINNING PLATES</string>
+    
+    
+          <string>STAR</string>
+    
+    
+          <string>STATE FAIR</string>
+    
+    
+          <string>STAGEHAND</string>
+    
+    
+          <string>STILTS</string>
+    
+    
+          <string>STRONG MAN</string>
+    
+    
+          <string>STUFFED ANIMALS</string>
+    
+    
+          <string>SWAG</string>
+    
+    
+          <string>SWING</string>
+    
+    
+          <string>SWORD SWALLOWER</string>
+    
+    
+          <string>TENT</string>
+    
+    
+          <string>THRILL RIDE</string>
+    
+    
+          <string>TICKET</string>
+    
+    
+          <string>TIGER</string>
+    
+    
+          <string>TIGHTROPE</string>
+    
+    
+          <string>TIGHTROPE WALKER</string>
+    
+    
+          <string>TOP HAT</string>
+    
+    
+          <string>TRAIN</string>
+    
+    
+          <string>TRAINER</string>
+    
+    
+          <string>TRAMPOLINE</string>
+    
+    
+          <string>TRAPEZE</string>
+    
+    
+          <string>TRAPEZE ARTIST</string>
+    
+    
+          <string>TRICK</string>
+    
+    
+          <string>TROUPE</string>
+    
+    
+          <string>TRUNK</string>
+    
+    
+          <string>UNICYCLE</string>
+    
+    
+          <string>VANISHING ACT</string>
+    
+    
+          <string>WATER PARK</string>
+    
+    
+          <string>WHIP</string>
+    
+</array>
+</plist>

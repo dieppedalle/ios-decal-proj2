@@ -12,6 +12,7 @@ class GameViewController: UIViewController {
     
     let defaults = NSUserDefaults.standardUserDefaults()
     
+    var category: String = ""
     
     @IBOutlet weak var hangManImage: UIImageView!
     @IBOutlet weak var wordReveal: UILabel!
@@ -87,6 +88,8 @@ class GameViewController: UIViewController {
     }
     
     func loadNewGame(){
+        print(category)
+        
         characterAdded = []
         incorrectGuesses = 0
         hangManImage.image = UIImage(named: "hangman1.png")
@@ -117,9 +120,60 @@ class GameViewController: UIViewController {
         Y.enabled = true
         Z.enabled = true
         
+        if (category == "Beatles Song"){
+            let hangmanPhrases = HangmanPhrases(category: "phrases")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "United States Presidents"){
+            let hangmanPhrases = HangmanPhrases(category: "presidents")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Chemical Elements"){
+            let hangmanPhrases = HangmanPhrases(category: "chemicals")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Animals"){
+            let hangmanPhrases = HangmanPhrases(category: "animals")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Circus & Fairs"){
+            let hangmanPhrases = HangmanPhrases(category: "circusFairs")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Clothes"){
+            let hangmanPhrases = HangmanPhrases(category: "clothes")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Colors"){
+            let hangmanPhrases = HangmanPhrases(category: "colors")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Disney Animated Movies"){
+            let hangmanPhrases = HangmanPhrases(category: "disney")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Elections"){
+            let hangmanPhrases = HangmanPhrases(category: "elections")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Human Body"){
+            let hangmanPhrases = HangmanPhrases(category: "humanBody")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "Military"){
+            let hangmanPhrases = HangmanPhrases(category: "military")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
+        else if (category == "U.S. States"){
+            let hangmanPhrases = HangmanPhrases(category: "USStates")
+            phrase = hangmanPhrases.getRandomPhrase()
+        }
         
-        let hangmanPhrases = HangmanPhrases()
-        phrase = hangmanPhrases.getRandomPhrase()
+        
+        
+        
+        //let hangmanPhrases = HangmanPhrases(category: "phrases")
+        //phrase = hangmanPhrases.getRandomPhrase()
         
         var wordLabel = ""
         

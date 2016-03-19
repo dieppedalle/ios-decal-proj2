@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<array>
+          <string>AMETHYST</string>
+    
+    
+          <string>APRICOT</string>
+    
+    
+          <string>AQUA</string>
+    
+    
+          <string>AQUAMARINE</string>
+    
+    
+          <string>AUBURN</string>
+    
+    
+          <string>AZURE</string>
+    
+    
+          <string>BEIGE</string>
+    
+    
+          <string>BLACK</string>
+    
+    
+          <string>BLUE</string>
+    
+    
+          <string>BRONZE</string>
+    
+    
+          <string>BROWN</string>
+    
+    
+          <string>BUFF</string>
+    
+    
+          <string>BURNT UMBER</string>
+    
+    
+          <string>CARDINAL</string>
+    
+    
+          <string>CARMINE</string>
+    
+    
+          <string>CELADON</string>
+    
+    
+          <string>CERISE</string>
+    
+    
+          <string>CERULEAN</string>
+    
+    
+          <string>CHARCOAL</string>
+    
+    
+          <string>CHARTREUSE</string>
+    
+    
+          <string>CHOCOLATE</string>
+    
+    
+          <string>CINNAMON</string>
+    
+    
+          <string>COLOR</string>
+    
+    
+          <string>COPPER</string>
+    
+    
+          <string>CORAL</string>
+    
+    
+          <string>CREAM</string>
+    
+    
+          <string>CRIMSON</string>
+    
+    
+          <string>CYAN</string>
+    
+    
+          <string>DARK</string>
+    
+    
+          <string>DENIM</string>
+    
+    
+          <string>DESERT SAND</string>
+    
+    
+          <string>ECRU</string>
+    
+    
+          <string>EGGPLANT</string>
+    
+    
+          <string>EMERALD</string>
+    
+    
+          <string>FOREST GREEN</string>
+    
+    
+          <string>FUCHSIA</string>
+    
+    
+          <string>GOLD</string>
+    
+    
+          <string>GOLDENROD</string>
+    
+    
+          <string>GRAY</string>
+    
+    
+          <string>GREEN</string>
+    
+    
+          <string>GREY</string>
+    
+    
+          <string>HOT PINK</string>
+    
+    
+          <string>INDIGO</string>
+    
+    
+          <string>IVORY</string>
+    
+    
+          <string>JADE</string>
+    
+    
+          <string>JET</string>
+    
+    
+          <string>JUNGLE GREEN</string>
+    
+    
+          <string>KELLY GREEN</string>
+    
+    
+          <string>KHAKI</string>
+    
+    
+          <string>LAVENDER</string>
+    
+    
+          <string>LEMON</string>
+    
+    
+          <string>LILAC</string>
+    
+    
+          <string>LIME</string>
+    
+    
+          <string>MAGENTA</string>
+    
+    
+          <string>MAHOGANY</string>
+    
+    
+          <string>MAROON</string>
+    
+    
+          <string>MAUVE</string>
+    
+    
+          <string>MUSTARD</string>
+    
+    
+          <string>NAVY BLUE</string>
+    
+    
+          <string>OCHER</string>
+    
+    
+          <string>OLIVE</string>
+    
+    
+          <string>ORANGE</string>
+    
+    
+          <string>ORCHID</string>
+    
+    
+          <string>PALE</string>
+    
+    
+          <string>PASTEL</string>
+    
+    
+          <string>PEACH</string>
+    
+    
+          <string>PERIWINKLE</string>
+    
+    
+          <string>PERSIMMON</string>
+    
+    
+          <string>PEWTER</string>
+    
+    
+          <string>PINK</string>
+    
+    
+          <string>PUCE</string>
+    
+    
+          <string>PUMPKIN</string>
+    
+    
+          <string>PURPLE</string>
+    
+    
+          <string>RAINBOW</string>
+    
+    
+          <string>RED</string>
+    
+    
+          <string>ROSE</string>
+    
+    
+          <string>RUBY</string>
+    
+    
+          <string>RUSSET</string>
+    
+    
+          <string>RUST</string>
+    
+    
+          <string>SAFFRON</string>
+    
+    
+          <string>SALMON</string>
+    
+    
+          <string>SAPPHIRE</string>
+    
+    
+          <string>SCARLET</string>
+    
+    
+          <string>SEA GREEN</string>
+    
+    
+          <string>SEPIA</string>
+    
+    
+          <string>SHAMROCK</string>
+    
+    
+          <string>SIENNA</string>
+    
+    
+          <string>SILVER</string>
+    
+    
+          <string>SLATE</string>
+    
+    
+          <string>STEEL BLUE</string>
+    
+    
+          <string>TAN</string>
+    
+    
+          <string>TANGERINE</string>
+    
+    
+          <string>TAUPE</string>
+    
+    
+          <string>TEAL</string>
+    
+    
+          <string>TERRACOTTA</string>
+    
+    
+          <string>THISTLE</string>
+    
+    
+          <string>TINT</string>
+    
+    
+          <string>TOMATO</string>
+    
+    
+          <string>TOPAZ</string>
+    
+    
+          <string>TURQUOISE</string>
+    
+    
+          <string>ULTRAMARINE</string>
+    
+    
+          <string>UMBER</string>
+    
+    
+          <string>VERMILION</string>
+    
+    
+          <string>VIOLET</string>
+    
+    
+          <string>VIRIDIAN</string>
+    
+    
+          <string>WHEAT</string>
+    
+    
+          <string>WHITE</string>
+    
+    
+          <string>WISTERIA</string>
+    
+    
+          <string>YELLOW</string>
+    
+</array>
+</plist>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<array>
+          <string>ALUMINUM</string>
+    
+    
+          <string>AMERICIUM</string>
+    
+    
+          <string>ANTIMONY</string>
+    
+    
+          <string>ARGON</string>
+    
+    
+          <string>ARSENIC</string>
+    
+    
+          <string>ASTATINE</string>
+    
+    
+          <string>BARIUM</string>
+    
+    
+          <string>BERKELIUM</string>
+    
+    
+          <string>BERYLLIUM</string>
+    
+    
+          <string>BISMUTH</string>
+    
+    
+          <string>BOHRIUM</string>
+    
+    
+          <string>BORON</string>
+    
+    
+          <string>BROMINE</string>
+    
+    
+          <string>CADMIUM</string>
+    
+    
+          <string>CALCIUM</string>
+    
+    
+          <string>CALIFORNIUM</string>
+    
+    
+          <string>CARBON</string>
+    
+    
+          <string>CERIUM</string>
+    
+    
+          <string>CESIUM</string>
+    
+    
+          <string>CHLORINE</string>
+    
+    
+          <string>CHROMIUM</string>
+    
+    
+          <string>COBALT</string>
+    
+    
+          <string>COPERNICIUM</string>
+    
+    
+          <string>COPPER</string>
+    
+    
+          <string>CURIUM</string>
+    
+    
+          <string>DARMSTADTIUM</string>
+    
+    
+          <string>DUBNIUM</string>
+    
+    
+          <string>DYSPROSIUM</string>
+    
+    
+          <string>EINSTEINIUM</string>
+    
+    
+          <string>ERBIUM</string>
+    
+    
+          <string>EUROPIUM</string>
+    
+    
+          <string>FERMIUM</string>
+    
+    
+          <string>FLEROVIUM</string>
+    
+    
+          <string>FLUORINE</string>
+    
+    
+          <string>FRANCIUM</string>
+    
+    
+          <string>GADOLINIUM</string>
+    
+    
+          <string>GALLIUM</string>
+    
+    
+          <string>GERMANIUM</string>
+    
+    
+          <string>GOLD</string>
+    
+    
+          <string>HAFNIUM</string>
+    
+    
+          <string>HASSIUM</string>
+    
+    
+          <string>HELIUM</string>
+    
+    
+          <string>HOLMIUM</string>
+    
+    
+          <string>HYDROGEN</string>
+    
+    
+          <string>INDIUM</string>
+    
+    
+          <string>IODINE</string>
+    
+    
+          <string>IRIDIUM</string>
+    
+    
+          <string>IRON</string>
+    
+    
+          <string>KRYPTON</string>
+    
+    
+          <string>LANTHANUM</string>
+    
+    
+          <string>LAWRENCIUM</string>
+    
+    
+          <string>LEAD</string>
+    
+    
+          <string>LITHIUM</string>
+    
+    
+          <string>LIVERMORIUM</string>
+    
+    
+          <string>LUTETIUM</string>
+    
+    
+          <string>MAGNESIUM</string>
+    
+    
+          <string>MANGANESE</string>
+    
+    
+          <string>MEITNERIUM</string>
+    
+    
+          <string>MENDELEVIUM</string>
+    
+    
+          <string>MERCURY</string>
+    
+    
+          <string>MOLYBDENUM</string>
+    
+    
+          <string>NEODYMIUM</string>
+    
+    
+          <string>NEON</string>
+    
+    
+          <string>NEPTUNIUM</string>
+    
+    
+          <string>NICKEL</string>
+    
+    
+          <string>NIOBIUM</string>
+    
+    
+          <string>NITROGEN</string>
+    
+    
+          <string>NOBELIUM</string>
+    
+    
+          <string>OSMIUM</string>
+    
+    
+          <string>OXYGEN</string>
+    
+    
+          <string>PALLADIUM</string>
+    
+    
+          <string>PHOSPHORUS</string>
+    
+    
+          <string>PLATINUM</string>
+    
+    
+          <string>PLUTONIUM</string>
+    
+    
+          <string>POLONIUM</string>
+    
+    
+          <string>POTASSIUM</string>
+    
+    
+          <string>PRASEODYMIUM</string>
+    
+    
+          <string>PROMETHIUM</string>
+    
+    
+          <string>PROTACTINIUM</string>
+    
+    
+          <string>RADIUM</string>
+    
+    
+          <string>RADON</string>
+    
+    
+          <string>RHENIUM</string>
+    
+    
+          <string>RHODIUM</string>
+    
+    
+          <string>ROENTGENIUM</string>
+    
+    
+          <string>RUBIDIUM</string>
+    
+    
+          <string>RUTHENIUM</string>
+    
+    
+          <string>RUTHERFORDIUM</string>
+    
+    
+          <string>SAMARIUM</string>
+    
+    
+          <string>SCANDIUM</string>
+    
+    
+          <string>SEABORGIUM</string>
+    
+    
+          <string>SELENIUM</string>
+    
+    
+          <string>SILICON</string>
+    
+    
+          <string>SILVER</string>
+    
+    
+          <string>SODIUM</string>
+    
+    
+          <string>STRONTIUM</string>
+    
+    
+          <string>SULFUR</string>
+    
+    
+          <string>TANTALUM</string>
+    
+    
+          <string>TECHNETIUM</string>
+    
+    
+          <string>TELLURIUM</string>
+    
+    
+          <string>TERBIUM</string>
+    
+    
+          <string>THALLIUM</string>
+    
+    
+          <string>THORIUM</string>
+    
+    
+          <string>THULIUM</string>
+    
+    
+          <string>TIN</string>
+    
+    
+          <string>TITANIUM</string>
+    
+    
+          <string>TUNGSTEN</string>
+    
+    
+          <string>UNUNOCTIUM</string>
+    
+    
+          <string>UNUNPENTIUM</string>
+    
+    
+          <string>UNUNSEPTIUM</string>
+    
+    
+          <string>UNUNTRIUM</string>
+    
+    
+          <string>URANIUM</string>
+    
+    
+          <string>VANADIUM</string>
+    
+    
+          <string>XENON</string>
+    
+    
+          <string>YTTERBIUM</string>
+    
+    
+          <string>YTTRIUM</string>
+    
+    
+          <string>ZINC</string>
+    
+    
+          <string>ZIRCONIUM</string>
+    
+</array>
+</plist>

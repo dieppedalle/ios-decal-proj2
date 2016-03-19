@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ADMIRAL</string>
+	<string>ADVANCE</string>
+	<string>AIRCRAFT</string>
+	<string>AIRCRAFT CARRIER</string>
+	<string>AIR FORCE</string>
+	<string>ALLY</string>
+	<string>AMMO</string>
+	<string>AMMUNITION</string>
+	<string>AMPHIBIOUS VEHICLE</string>
+	<string>ARMISTICE</string>
+	<string>ARMOR</string>
+	<string>ARMOURED VEHICLE</string>
+	<string>ARMS</string>
+	<string>ARMY</string>
+	<string>ARROW</string>
+	<string>ARSENAL</string>
+	<string>ARTILLERY</string>
+	<string>ASSAULT</string>
+	<string>AT EASE</string>
+	<string>ATTACK</string>
+	<string>ATTENTION</string>
+	<string>BALLISTIC</string>
+	<string>BASE</string>
+	<string>BATTALION</string>
+	<string>BATTLE</string>
+	<string>BATTLEFIELD</string>
+	<string>BATTLESHIP</string>
+	<string>BAYONNET</string>
+	<string>BESIEGE</string>
+	<string>BILLET</string>
+	<string>BIVOUAC</string>
+	<string>BOMB</string>
+	<string>BOMBARD</string>
+	<string>BOMBARDMENT</string>
+	<string>BOW AND ARROW</string>
+	<string>BRIG</string>
+	<string>BRIGADE</string>
+	<string>BULLET</string>
+	<string>CADET</string>
+	<string>CAMOUFLAGE</string>
+	<string>CAMP</string>
+	<string>CANNON</string>
+	<string>CANNON BALL</string>
+	<string>CANTEEN</string>
+	<string>CAPTAIN</string>
+	<string>CAPTURE</string>
+	<string>CARRIER</string>
+	<string>CASUALTY</string>
+	<string>CATAPULT</string>
+	<string>CAVALRY</string>
+	<string>CHAPLAIN</string>
+	<string>COAST GUARD</string>
+	<string>COLONEL</string>
+	<string>COMBAT</string>
+	<string>COMMAND</string>
+	<string>COMMANDER</string>
+	<string>COMMANDING OFFICER</string>
+	<string>COMMISSION</string>
+	<string>COMPANY</string>
+	<string>CONFLICT</string>
+	<string>CONQUEST</string>
+	<string>CONSCRIPTION</string>
+	<string>CONVOY</string>
+	<string>CORPORAL</string>
+	<string>CORPS</string>
+	<string>COVERT</string>
+	<string>CREW</string>
+	<string>DECODE</string>
+	<string>DEFEAT</string>
+	<string>DEFEND</string>
+	<string>DEFENSE</string>
+	<string>DESTROYER</string>
+	<string>DETONATE</string>
+	<string>DIVISION</string>
+	<string>DOG TAGS</string>
+	<string>DRAFT</string>
+	<string>ENCAMPMENT</string>
+	<string>ENCODE</string>
+	<string>ENEMY</string>
+	<string>ENGAGE</string>
+	<string>ENLIST</string>
+	<string>ENSIGN</string>
+	<string>EPAULETTE</string>
+	<string>EVACUATE</string>
+	<string>EXPLOSIVE</string>
+	<string>FIELD HOSPITAL</string>
+	<string>FIELD MARSHAL</string>
+	<string>FIGHT</string>
+	<string>FIRE</string>
+	<string>FLEET</string>
+	<string>FORCE</string>
+	<string>FORMATION</string>
+	<string>FORT</string>
+	<string>FORTIFICATION</string>
+	<string>FURLOUGH</string>
+	<string>GARRISON</string>
+	<string>GENERAL</string>
+	<string>GENEVA CONVENTION</string>
+	<string>GRENADE</string>
+	<string>GRENADE LAUNCHER</string>
+	<string>GRUNT</string>
+	<string>GUERILLA</string>
+	<string>GUN</string>
+	<string>GUNNER</string>
+	<string>GUNPOWDER</string>
+	<string>HEADQUARTERS</string>
+	<string>HELMET</string>
+	<string>HONOR</string>
+	<string>HOSPITAL</string>
+	<string>HOWITZER</string>
+	<string>INFANTRY</string>
+	<string>INJURY</string>
+	<string>INSIGNIA</string>
+	<string>INTELLIGENCE</string>
+	<string>INVADE</string>
+	<string>INVASION</string>
+	<string>JEEP</string>
+	<string>JET</string>
+	<string>KILL</string>
+	<string>LANCE CORPORAL</string>
+	<string>LEAVE</string>
+	<string>LIEUTENANT</string>
+	<string>LOSE</string>
+	<string>MACHETE</string>
+	<string>MAJOR</string>
+	<string>MARINES</string>
+	<string>MEDAL</string>
+	<string>MEDIC</string>
+	<string>MARKSMAN</string>
+	<string>MESS HALL</string>
+	<string>MIA</string>
+	<string>MIDSHIPMAN</string>
+	<string>MILITARY</string>
+	<string>MINE</string>
+	<string>MISSILE</string>
+	<string>MORTAR</string>
+	<string>MUNITION</string>
+	<string>MUSKET</string>
+	<string>NATIONAL SECURITY</string>
+	<string>NAVY</string>
+	<string>NEUTRAL</string>
+	<string>OFFENSE</string>
+	<string>OFFICER</string>
+	<string>ORDNANCE</string>
+	<string>PARACHUTE</string>
+	<string>PARATROOPER</string>
+	<string>PEACE</string>
+	<string>PEACE TREATY</string>
+	<string>PETTY OFFICER</string>
+	<string>PLANE</string>
+	<string>PLATOON</string>
+	<string>POST</string>
+	<string>POW</string>
+	<string>PRISONER OF WAR</string>
+	<string>PRIVATE</string>
+	<string>PT BOAT</string>
+	<string>PURPLE HEART</string>
+	<string>QUARTERMASTER</string>
+	<string>RADAR</string>
+	<string>RANK</string>
+	<string>RECONNOITER</string>
+	<string>RECRUIT</string>
+	<string>REGIMENT</string>
+	<string>RESCUE</string>
+	<string>RESERVES</string>
+	<string>RETREAT</string>
+	<string>RIBBON</string>
+	<string>RIFLE</string>
+	<string>ROCKET ARTILLERY</string>
+	<string>SABOTAGE</string>
+	<string>SAILOR</string>
+	<string>SALUTE</string>
+	<string>SALVO</string>
+	<string>SEAMAN</string>
+	<string>SERGEANT</string>
+	<string>SERVICE</string>
+	<string>SHELL</string>
+	<string>SHOOT</string>
+	<string>SHOT</string>
+	<string>SIEGE</string>
+	<string>SNIPER</string>
+	<string>SOLDIER</string>
+	<string>SPEAR</string>
+	<string>SPECIALIST</string>
+	<string>SQUAD</string>
+	<string>SQUADRON</string>
+	<string>STAFF</string>
+	<string>STAR</string>
+	<string>STOCKADE</string>
+	<string>SUBMARINE</string>
+	<string>SURRENDER</string>
+	<string>TACTICAL</string>
+	<string>TACTICS</string>
+	<string>TANK</string>
+	<string>THEATER</string>
+	<string>TOMAHAWK</string>
+	<string>TORPEDO</string>
+	<string>TROOPS</string>
+	<string>TRUCE</string>
+	<string>UNIFORM</string>
+	<string>UNIT</string>
+	<string>VETERAN</string>
+	<string>VOLLEY</string>
+	<string>WAR</string>
+	<string>WARFARE</string>
+	<string>WARRANT OFFICER</string>
+	<string>WARRIOR</string>
+	<string>WEAPON</string>
+	<string>WIN</string>
+	<string>WOUND</string>
+	<string>ZULU TIME</string>
+</array>
+</plist>

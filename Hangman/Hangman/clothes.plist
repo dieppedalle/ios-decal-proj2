@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>APRON</string>
+	<string>ASCOT TIE</string>
+	<string>BALACLAVA</string>
+	<string>BALL GOWN</string>
+	<string>BANDANNA</string>
+	<string>BASEBALL CAP</string>
+	<string>BATHING SUIT</string>
+	<string>BEANIE</string>
+	<string>BELT</string>
+	<string>BERET</string>
+	<string>BIB</string>
+	<string>BIKINI</string>
+	<string>BLAZER</string>
+	<string>BLOOMERS</string>
+	<string>BLOUSE</string>
+	<string>BOA</string>
+	<string>BONNET</string>
+	<string>BOOT</string>
+	<string>BOW</string>
+	<string>BOW TIE</string>
+	<string>BOXER SHORTS</string>
+	<string>BOXERS</string>
+	<string>BRA</string>
+	<string>BRACELET</string>
+	<string>BRIEFS</string>
+	<string>BUCKLE</string>
+	<string>BUTTON</string>
+	<string>BUTTON-DOWN SHIRT</string>
+	<string>CAMISOLE</string>
+	<string>CAP</string>
+	<string>CAP AND GOWN</string>
+	<string>CAPE</string>
+	<string>CAPRIS</string>
+	<string>CARDIGAN</string>
+	<string>CLOAK</string>
+	<string>CLOGS</string>
+	<string>COAT</string>
+	<string>COLLAR</string>
+	<string>COSTUME</string>
+	<string>COWBOY BOOTS</string>
+	<string>COWBOY HAT</string>
+	<string>CROWN</string>
+	<string>CUFF</string>
+	<string>CUFF LINKS</string>
+	<string>CULOTTES</string>
+	<string>DIAPER</string>
+	<string>DINNER JACKET</string>
+	<string>DIRNDL</string>
+	<string>DRESS</string>
+	<string>EARMUFFS</string>
+	<string>EARRINGS</string>
+	<string>EVENING GOWN</string>
+	<string>FASHION</string>
+	<string>FEDORA</string>
+	<string>FEZ</string>
+	<string>FLAK JACKET</string>
+	<string>FLANNEL NIGHTGOWN</string>
+	<string>FLANNEL SHIRT</string>
+	<string>FORMAL WEAR</string>
+	<string>FROCK</string>
+	<string>FUR</string>
+	<string>FUR COAT</string>
+	<string>GALOSHES</string>
+	<string>GARMENT</string>
+	<string>GARTERS</string>
+	<string>GLASSES</string>
+	<string>GLOVES</string>
+	<string>GOWN</string>
+	<string>HALTER TOP</string>
+	<string>HANDBAG</string>
+	<string>HANDKERCHIEF</string>
+	<string>HAT</string>
+	<string>HAWAIIAN SHIRT</string>
+	<string>HAZMAT SUIT</string>
+	<string>HELMET</string>
+	<string>HEM</string>
+	<string>HIGH HEELS</string>
+	<string>HOODIE</string>
+	<string>HOOK AND EYE</string>
+	<string>HOSIERY</string>
+	<string>HOSPITAL GOWN</string>
+	<string>HOUSECOAT</string>
+	<string>JACKET</string>
+	<string>JEANS</string>
+	<string>JEWELRY</string>
+	<string>JUMPER</string>
+	<string>JUMPSUIT</string>
+	<string>KERCHIEF</string>
+	<string>KHAKIS</string>
+	<string>KILT</string>
+	<string>KIMONO</string>
+	<string>LAB COAT</string>
+	<string>LAPELS</string>
+	<string>LEATHER JACKET</string>
+	<string>LEGGINGS</string>
+	<string>LEOTARD</string>
+	<string>LIFE JACKET</string>
+	<string>LOAFERS</string>
+	<string>LONGJOHNS</string>
+	<string>MINISKIRT</string>
+	<string>MITTENS</string>
+	<string>MOCCASINS</string>
+	<string>MUFFLER</string>
+	<string>NECKERCHIEF</string>
+	<string>NECKLACE</string>
+	<string>NIGHTGOWN</string>
+	<string>NIGHTSHIRT</string>
+	<string>OUTERWEAR</string>
+	<string>OVERALLS</string>
+	<string>OVERCOAT</string>
+	<string>PAJAMAS</string>
+	<string>PANAMA HAT</string>
+	<string>PANTS</string>
+	<string>PANTSUIT</string>
+	<string>PANTYHOSE</string>
+	<string>PARKA</string>
+	<string>PEA COAT</string>
+	<string>PETTICOAT</string>
+	<string>PINAFORE</string>
+	<string>PLEAT</string>
+	<string>POCKET</string>
+	<string>POCKETBOOK</string>
+	<string>POLO SHIRT</string>
+	<string>PONCHO</string>
+	<string>PORKPIE HAT</string>
+	<string>PULLOVER</string>
+	<string>PUMPS</string>
+	<string>PURSE</string>
+	<string>RAINCOAT</string>
+	<string>RING</string>
+	<string>ROBE</string>
+	<string>RUGBY SHIRT</string>
+	<string>SANDALS</string>
+	<string>SARI</string>
+	<string>SARONG</string>
+	<string>SCARF</string>
+	<string>SCHOOL UNIFORM</string>
+	<string>SHEATH DRESS</string>
+	<string>SHIFT</string>
+	<string>SHIRT</string>
+	<string>SHOE</string>
+	<string>SHORTS</string>
+	<string>SKIRT</string>
+	<string>SLACKS</string>
+	<string>SLIP</string>
+	<string>SLIPPERS</string>
+	<string>SMOCK</string>
+	<string>SNAPS</string>
+	<string>SNEAKERS</string>
+	<string>SOCK</string>
+	<string>SPACESUIT</string>
+	<string>STETSON HAT</string>
+	<string>STOCKINGS</string>
+	<string>SUIT</string>
+	<string>SUNBONNET</string>
+	<string>SUNDRESS</string>
+	<string>SUNGLASSES</string>
+	<string>SUN HAT</string>
+	<string>SUSPENDERS</string>
+	<string>SWEATER</string>
+	<string>SWEATS</string>
+	<string>SWIMSUIT</string>
+	<string>TAM</string>
+	<string>TANK TOP</string>
+	<string>TIARA</string>
+	<string>TIE</string>
+	<string>TIE CLIP</string>
+	<string>TIGHTS</string>
+	<string>TOGA</string>
+	<string>TOP HAT</string>
+	<string>TRAIN</string>
+	<string>TRUNKS</string>
+	<string>TURTLENECK</string>
+	<string>TUTU</string>
+	<string>TRENCH COAT</string>
+	<string>TROUSERS</string>
+	<string>TRUNKS</string>
+	<string>TUBE TOP</string>
+	<string>TUNIC</string>
+	<string>TURBAN</string>
+	<string>TURTLE NECK SHIRT</string>
+	<string>TUX</string>
+	<string>TUXEDO</string>
+	<string>TWEED JACKET</string>
+	<string>UNDERSHIRT</string>
+	<string>UNDERWEAR</string>
+	<string>UNIFORM</string>
+	<string>VEIL</string>
+	<string>VELCRO</string>
+	<string>VEST</string>
+	<string>VESTMENTS</string>
+	<string>VISOR</string>
+	<string>WADERS</string>
+	<string>WAISTCOAT</string>
+	<string>WEDDING GOWN</string>
+	<string>WELLINGTONS</string>
+	<string>WETSUIT</string>
+	<string>WINDBREAKER</string>
+	<string>YOKE</string>
+	<string>ZIPPER</string>
+	<string>ZORIS</string>
+</array>
+</plist>
