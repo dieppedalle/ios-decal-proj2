@@ -791,31 +791,33 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ash-NU-dRr">
-                                <rect key="frame" x="20" y="289" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hangman1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CHG-r2-F6b">
-                                <rect key="frame" x="225" y="113" width="150" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="3fi-uH-SZd"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="gkV-Lq-1bd"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="pKo-bP-GfH"/>
-                                    <constraint firstAttribute="width" constant="150" id="t0e-hU-kcB"/>
-                                </constraints>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tWf-sD-Pvk">
+                                <rect key="frame" x="20" y="139" width="560" height="321"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hangman1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CHG-r2-F6b">
+                                        <rect key="frame" x="130" y="0.0" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="GG7-oR-sKO"/>
+                                            <constraint firstAttribute="height" constant="300" id="T38-ZS-fr8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ash-NU-dRr">
+                                        <rect key="frame" x="247" y="300" width="66" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ash-NU-dRr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="03f-hZ-2Ov"/>
-                            <constraint firstItem="ash-NU-dRr" firstAttribute="top" secondItem="CHG-r2-F6b" secondAttribute="bottom" constant="26" id="Fz8-6a-aTg"/>
-                            <constraint firstItem="CHG-r2-F6b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HCO-0c-TJi"/>
+                            <constraint firstItem="tWf-sD-Pvk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PCv-yq-8K7"/>
+                            <constraint firstItem="tWf-sD-Pvk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WCV-SG-qxY"/>
+                            <constraint firstItem="tWf-sD-Pvk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e5e-qX-Rda"/>
                             <constraint firstItem="WKP-Qv-ISM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f6I-mn-rSe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WKP-Qv-ISM" secondAttribute="bottom" constant="20" id="gBY-7t-Lp3"/>
-                            <constraint firstItem="ash-NU-dRr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jyP-80-oHN"/>
-                            <constraint firstItem="ash-NU-dRr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kTw-fp-gt1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tWf-sD-Pvk" secondAttribute="trailing" id="gCV-M3-Pk8"/>
                         </constraints>
                     </view>
                     <connections>
@@ -1089,29 +1091,33 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOo-NB-kos">
-                                <rect key="frame" x="20" y="289" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hangman1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q4E-dW-5YF">
-                                <rect key="frame" x="225" y="115" width="150" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="k6U-wp-v2g"/>
-                                    <constraint firstAttribute="width" constant="150" id="x5O-tp-1dA"/>
-                                </constraints>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0zf-KT-aO9">
+                                <rect key="frame" x="20" y="140" width="560" height="321"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hangman1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q4E-dW-5YF">
+                                        <rect key="frame" x="130" y="0.0" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="q52-E3-MO5"/>
+                                            <constraint firstAttribute="height" constant="300" id="sh8-PU-cYy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOo-NB-kos">
+                                        <rect key="frame" x="247" y="300" width="66" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="oOo-NB-kos" firstAttribute="leading" secondItem="fOT-bW-iRA" secondAttribute="leadingMargin" id="J6n-jf-1nC"/>
-                            <constraint firstItem="oOo-NB-kos" firstAttribute="top" secondItem="Q4E-dW-5YF" secondAttribute="bottom" constant="24" id="k8b-OG-wwI"/>
+                            <constraint firstItem="0zf-KT-aO9" firstAttribute="centerX" secondItem="fOT-bW-iRA" secondAttribute="centerX" id="7Od-Zb-Zzn"/>
+                            <constraint firstItem="0zf-KT-aO9" firstAttribute="centerY" secondItem="fOT-bW-iRA" secondAttribute="centerY" id="YGt-Q9-dpx"/>
+                            <constraint firstItem="0zf-KT-aO9" firstAttribute="leading" secondItem="fOT-bW-iRA" secondAttribute="leadingMargin" id="ioC-CE-m9K"/>
                             <constraint firstItem="3Xh-9x-3Xl" firstAttribute="centerX" secondItem="fOT-bW-iRA" secondAttribute="centerX" id="kAX-4p-H4F"/>
                             <constraint firstItem="PKo-ji-Q0X" firstAttribute="top" secondItem="3Xh-9x-3Xl" secondAttribute="bottom" constant="20" id="mVo-gg-mU0"/>
-                            <constraint firstItem="oOo-NB-kos" firstAttribute="centerY" secondItem="fOT-bW-iRA" secondAttribute="centerY" id="qif-mo-Byf"/>
-                            <constraint firstItem="Q4E-dW-5YF" firstAttribute="centerX" secondItem="fOT-bW-iRA" secondAttribute="centerX" id="wHK-C9-iTz"/>
-                            <constraint firstItem="oOo-NB-kos" firstAttribute="trailing" secondItem="fOT-bW-iRA" secondAttribute="trailingMargin" id="y2i-xm-chf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0zf-KT-aO9" secondAttribute="trailing" id="sg3-Lv-UYs"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
